@@ -1,0 +1,5 @@
+The next example shows how to read a single byte, an array of bytes, and a subrange of
+an array of bytes. It also illustrates how to use available( ) to determine the number of bytes
+remaining and how to use the skip( ) method to skip over unwanted bytes. The program
+reads its own source file, which must be in the current directory. Notice that it uses the
+try-with-resources statement to automatically close the file when it is no longer needed.
